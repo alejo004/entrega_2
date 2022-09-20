@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@400;500&family=Roboto:wght@100&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style-type: none;
+	font-family: Oswald, cursive;
 }
 
 :root {
@@ -40,7 +43,7 @@ header {
 }
 
 .title {
-	font-weight: 300;
+	font-weight: 800;
 	font-size: 25px;
 }
 
@@ -70,6 +73,6 @@ header {
 .list-item:hover {
 	background: var(--blue-mas-clarito-jaja);
 	padding: 6px;
-	border-radius: 12px;
+	border-radius: 7px;
 	border-bottom: 2px solid var(--green);
 }
